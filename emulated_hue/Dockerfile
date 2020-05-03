@@ -14,7 +14,7 @@ RUN \
         openssl \
         supervisor \
     && mkdir /usr/local/app \
-    && git clone https://github.com/tonimm/hass_emulated_hue.git \
+    && git clone https://github.com/tonimm/hass_emulated_hue/tree/update-light-swversion-to-5.130.1.30000 \
     && pip3 install \
         --no-cache-dir \
         -r hass_emulated_hue/requirements.txt \
